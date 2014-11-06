@@ -23,7 +23,7 @@ bool sonMinusculas(string palabra)
 //Devuelve el promedio de los elementos de arreglo (dado) tomando en cuenta el tamano (dado)
 double getPromedio(double* arreglo,int tamano)
 {
-    double acum;
+    double acum=0;
     for(int x=0;x<tamano;x++)
     {
         acum+=(arreglo)[x];

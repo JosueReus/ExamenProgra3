@@ -26,7 +26,7 @@ double getPromedio(double* arreglo,int tamano)
     double acum;
     for(int x=0;x<tamano;x++)
     {
-        acum+=(*arreglo);
+        acum+=(arreglo)[x];
     }
 
     double promedio=(acum/tamano);
